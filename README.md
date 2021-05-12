@@ -17,14 +17,14 @@ The Third thing is based on machine learning where we will first teach our syste
 
 
 ## Milestones:
-### Webpage
+### - Webpage
 Create a webpage for the client where he or she can upload his/her/their photo and get the desired response(i.e. Colour of the skin). 
 The front end of the webpage will be designed using HTML, CSS and Bootstrap. It will prompt the client to add an image from its device for skin colour detection.
 The backend can be designed using Django.
 We’ve 8 group members who are from Web Development. Thus, 4 of them will work for the frontend and the other 4 will work for the backend part respectively.
-### Image Processing and Artificial Intelligence
+### - Image Processing and Artificial Intelligence
 This is the backend part. In this,an AI-based image processing needs to be done on the photo given by the user  to extract the skin tone of the image. 
-### Machine Learning
+### - Machine Learning
 In this part,we have to teach our backend model to learn how to differentiate  skin tones of an image so that it could evaluate the output of the given input. Since we will be teaching our model to differentiate between skin tones, this comes under supervised learning and since there are multiple classifications in skin tone for which we will use KNN algorithm. 
 
 ### Database:
