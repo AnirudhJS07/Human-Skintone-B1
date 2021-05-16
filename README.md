@@ -69,7 +69,7 @@ We might change the methodology or the algorithm while we actually implement or 
 - Sangani Sai Kumar (ML)
 - Sathvika Chilukumari (WebD)
 - Shashank Rai (ML)
-- Shashi Suman (WebD)
+- Shashi Suman (ML)
 - Shiva Kumar (ML)
 - V Venkat Bhargav (WebD)
 
