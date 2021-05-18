@@ -59,7 +59,7 @@ We might change the methodology or the algorithm while we actually implement or 
 - Bopanna Tejesh (ML)
 - Krishna Chaitanya (ML)
 - Kushagra Srivastava (ML)
-- Milind Palagadu (ML)
+- Milind Paladugu (ML)
 - Mohammed Arshad (WebD)
 - Mudit Shekhar (ML)
 - Paargavi Muthamil Selvan (ML)
