@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel = "icon" href ="ticon.jpg" type = "image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" type="text/css" href="scrollbar.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" style="background-color: antiquewhite;"> 
+  <div class="w3-bar w3-border w3-black" style="font-family: 'Josefin Sans', sans-serif; font-size: 24px; font-weight: bold;">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
+    <a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+  </div>
+<div id="cntus" class="container">
+  <h3 class="text-center" style="font-weight: bolder;font-size: 30px;">Contact Us</h3>
+  <p class="text-center"><em>We are always there for our customers</em></p>
+   
+  <form action="connect.php" method="post">
+  <div class="row" style="margin: auto;width: 50%;border: 3px solid rgb(0, 0, 0);padding: 10px;background-color: rgb(195, 231, 255);">
+    <div  style="margin: auto;padding: 10px;">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="user_name" placeholder="Enter your Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Mobile No" type="Mobile" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="projectTopic" name="projectTopic" placeholder="Enter your query" rows="5" required></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <a href="submit.html"></a>
+          <button class="btn pull-right" name="save" type="submit">Submit</button>
+          </a>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </form>
+  <br>
+  
+<br><br>
+ <div style="background-color: rgb(220, 255, 220);">
+  <h3 class="text-center" style="font-weight: bolder;font-size: 28px;">Common Issues</h3>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home" style="color: black;">Issue with Upload images</a></li>
+    <li><a data-toggle="tab" href="#menu2" style="color: black;">Image not visible for Analysing</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2 style="color: black;">Issue with Upload images </h2>
+      <p>For upload an image file, after pressed try now it redirect to choose file tab there you can upload your image from files.</p>
+      <br><br>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2 style="color: black;">Image not visible for Analysing</h2>
+      <p>For this referesh your page and start again it will work properly.</p>
+      <br><br>
+    </div>
+  </div>
+</div>
+</div>
+<br><br>
+  <footer id="foot">
+    <p style="word-spacing: 10px;font-size: 20px;">Contact   +91-8047166564   
+    <a href="mailto:support@verzeo.com">support@verzeo.com</a></p>
+    </footer>
+</body>
+</html>

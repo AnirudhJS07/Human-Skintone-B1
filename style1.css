@@ -1,0 +1,15 @@
+#start{
+    font-family: 'Balsamiq Sans', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'KoHo', sans-serif;
+font-family: 'Pangolin', cursive;
+font-family: 'Source Code Pro', monospace;
+font-size: 24px;
+}
+#foot{
+    text-align: center;
+    font-style: italic ;
+  padding: 3px;
+  background-color: rgb(170, 170, 170);
+  color: rgb(0, 0, 0);
+}

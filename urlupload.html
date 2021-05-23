@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display from url.</title><link rel="stylesheet" href="styleurl.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="scrollbar.css">
+</head>
+<body style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%) , url(wallpaper.jpg);">
+    <div class="w3-bar w3-border w3-black" style="font-family: 'Josefin Sans', sans-serif; font-size: 24px; font-weight: bold;">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="about.html" class="w3-bar-item w3-button">About</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact Us</a>
+    </div>
+    <center>
+        <img src="displaynew.png" alt="" height="150px" width="700px" >
+        <div>
+        <div class="alert alert-warning" role="alert">
+         <h3> &#128721; Make sure you copy paste the right image address to be uploaded &#128721;<br>Also, ensure that the image selected doesn't have lighting background as it would affect the analysis.</h3>
+        </div> 
+
+        <form action="upload2.php" method="post" enctype="multipart/form-data">
+            <input id="url" type="text" name="url" placeholder="url"/>  
+            <div class="col-md-6">
+                <input type="submit" class="btn btn-primary" name="submit" value="Upload">
+            </div>
+        </form>      
+            <button id="button">Display Image</button>
+</body>
+    <script>    
+    var button = document.getElementById('button')
+    button.addEventListener('click', function(event){
+        var imageurl = document.getElementById('url').value
+        var img = document.createElement('img');
+        img.src = imageurl
+        document.body.appendChild(img)
+    })
+    </script>
+</html>

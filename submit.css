@@ -1,0 +1,45 @@
+.log{
+    display: block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#jumbo{
+    display: block;
+    align-content: center;
+    margin-left: 30%;
+    height: auto;
+    width: 700px;
+    background-color: rgb(186, 248, 248);
+    color: rgb(3, 3, 34);
+    border-radius: 30px;
+  
+    
+}
+
+#ty{
+    font-family: 'FuntypeRegular';
+   font-weight: bold;
+   font-style: normal;
+   font-size: 68px;
+   color: rgb(22, 9, 80);
+}
+#xyz{
+    font-family: 'TomorrowRegular';
+   font-weight: normal;
+   font-style: bolder;
+   font-size: 30px;
+}
+#bt{
+    font-family: 'Lora', serif;
+    font-family: 'Red Rose', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #foot{
+    text-align: center;
+    font-style: italic ;
+  padding: 3px;
+  background-color: rgb(170, 170, 170);
+  color: rgb(0, 0, 0);
+}

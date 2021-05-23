@@ -1,0 +1,47 @@
+#texts{
+    color:#573719 ;
+}
+
+#a{
+    background-color: #FAE7D0;
+    animation-name: bg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes bg {
+    0%   {background-color: #fdf0e0}
+    10%  {background-color: #ffe2c9;}
+    20%  {background-color: #ffcba3;}
+    30% {background-color: #d8905f;}
+    40% {background-color: #935d37;}
+    50% {background-color: #573719;}
+    60% {background-color: #935d37;}
+    70% {background-color: #d8905f;}
+    80% {background-color: #fdc397;}
+    90%  {background-color: #fcdbbe;}
+    100% {background-color: #fde5c8}
+    
+
+  }
+
+#j{
+    grid-column: auto;
+    grid-row: auto;
+    width: 900px;
+    height: auto;
+    padding-top: 30   ;
+    padding-bottom: 20;
+    background-color: rgba(255, 255, 255,0.8) ;
+    border-style: outset;
+    border-color: rgb(105, 102, 100);
+    border-width: 10px;
+    align-content:center;
+}
+
+#foot{
+    text-align: center;
+    font-style: italic ;
+  padding: 3px;
+  background-color: rgb(170, 170, 170);
+  color: rgb(0, 0, 0);
+}
