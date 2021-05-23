@@ -96,8 +96,8 @@ then you have to fill three text boxes that are:
 - Shiva Kumar (ML)
 - V Venkat Bhargav (WebD)
 
-
-[Manual HumanSkintone-B1.pdf](https://github.com/AnirudhJS07/Human-Skintone-B1/files/6527963/Manual.HumanSkintone-B1.pdf)
-[HumanSkintone_B1.pdf](https://github.com/AnirudhJS07/Human-Skintone-B1/files/6527964/HumanSkintone_B1.pdf)
+## Files for reference:
+- [Manual HumanSkintone-B1.pdf](https://github.com/AnirudhJS07/Human-Skintone-B1/files/6527963/Manual.HumanSkintone-B1.pdf)
+- [HumanSkintone_B1.pdf](https://github.com/AnirudhJS07/Human-Skintone-B1/files/6527964/HumanSkintone_B1.pdf)
 
 
