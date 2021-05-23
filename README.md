@@ -74,6 +74,29 @@ then you have to fill three text boxes that are:
 - Install all packages that we’ve used for the ML part which are as follows: numpy, cv2, sklearn.cluster, Kmeans, Counter, imutils, matplotlib, pyplot, sys, requests, urllib.
 - Use the following link to see the locally hosted website : http://skintone.c1.biz
 
+## Group Members:
+- Abhishek Jena (WebD)
+- Amaan Mohamed (ML)
+- Anirudh Sharma (WebD)
+- Azarudeen R (WebD)
+- Bopanna Tejesh (ML)
+- Krishna Chaitanya (ML)
+- Kushagra Srivastava (ML)
+- Milind Palagadu (ML)
+- Mohammed Arshad (WebD)
+- Mudit Shekhar (ML)
+- Paargavi Muthamil Selvan (ML)
+- Pallavi Yemmireddi (ML)
+- Pavitra Poojary (WebD)
+- Sai Bhargav Reddy Chekka (WebD)
+- Sangani Sai Kumar (ML)
+- Sathvika Chilukumari (WebD)
+- Shashank Rai (ML)
+- Shashi Suman (WebD)
+- Shiva Kumar (ML)
+- V Venkat Bhargav (WebD)
+
+
 [Manual HumanSkintone-B1.pdf](https://github.com/AnirudhJS07/Human-Skintone-B1/files/6527963/Manual.HumanSkintone-B1.pdf)
 [HumanSkintone_B1.pdf](https://github.com/AnirudhJS07/Human-Skintone-B1/files/6527964/HumanSkintone_B1.pdf)
 
