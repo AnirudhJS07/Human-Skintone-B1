@@ -8,7 +8,9 @@ import requests
 import sys
 import urllib
 
-#sys.argv[1]
+url2 = sys.argv[1]
+
+print("SkinTone detected....")
 
 rgb_lower = [100,85,76]
 rgb_higher = [255,255,220]
@@ -103,9 +105,9 @@ def plotColorBar(colorInformation):
         top_x = bottom_x
     return color_bar
     
-#url = requests.get(option +sys.argv[1])
-url = input("enter url")
-image = imutils.url_to_image(url)
+#url = input("enter url")
+
+image = imutils.url_to_image(url2)
 
 image = imutils.resize(image, width=250)
 plt.subplot(3, 1, 1)
@@ -137,7 +139,7 @@ else:
             if color['decimal_color'] in range(convert_skintones[shade][0],convert_skintones[shade][1]+1):
                 skin_tones.append(shade)
 
-skin2 = print(skin_tones)
+print(skin_tones)
 
 print("Color Bar")
 colour_bar = plotColorBar(dominantColors)
@@ -146,5 +148,8 @@ plt.axis("off")
 plt.imshow(colour_bar)
 plt.title("Color Bar")
 
-plt.tight_layout()
-plt.show()
+print("Successfully executed")
+plt.savefig("abc.png")
+
+#plt.tight_layout()
+#plt.show()
