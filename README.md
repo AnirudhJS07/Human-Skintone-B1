@@ -92,7 +92,7 @@ then you have to fill three text boxes that are:
 - Sangani Sai Kumar (ML)
 - Sathvika Chilukumari (WebD)
 - Shashank Rai (ML)
-- Shashi Suman (WebD)
+- Shashi Suman (ML)
 - Shiva Kumar (ML)
 - V Venkat Bhargav (WebD)
 
