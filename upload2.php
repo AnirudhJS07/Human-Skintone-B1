@@ -5,11 +5,7 @@
                 $option = $_POST['url'];
                // echo $option;
 
-              exec('python skin.py 2>&1', $skin2);
-            
-
-shell_exec("python skin.py 2>&1");
-ini_set('max_execution_time', '120');
+              echo shell_exec("python skin.py $option");
 
 
 ?>
@@ -40,11 +36,12 @@ include "db_conn.php";
  if(isset($_POST['submit']))
  {
    $image_url=$_POST['url'];
-   $data = file_get_contents($image_url);
+   //$data = file_get_contents($image_url);
    $new = 'images/myimage.jpg';
-   $upload =file_put_contents($new, $data);
+   $new2 = 'abc.png';	 
+   $upload =file_put_contents($new, $image_url);
  if($upload) {
-     echo "<img src='images/myimage.jpg'>";
+     echo "<img src='abc.png'>";
  }else{
     echo "Please upload only image files";
  } 
@@ -62,7 +59,7 @@ include "db_conn.php";
 
 				// Insert into Database
 				$sql = "INSERT INTO images(image_url) 
-				        VALUES('$new')";
+				        VALUES('$new2')";
 				mysqli_query($conn, $sql);
 				//header("Location: view.php");
 
